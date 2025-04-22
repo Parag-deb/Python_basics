@@ -23,3 +23,6 @@ print("Hello, " + user_input + "!")
 
 txt = "I'm {user_input}. I'm {age} years old . My birthday is on {birthday}".format(user_input=user_input , age = age , birthday=birthday)
 print(txt)
+
+#f string
+print(f"I'm {user_input}. I'm {age} years old. My birthday is on {birthday}")
