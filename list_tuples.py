@@ -17,3 +17,13 @@ print(a.index('Naim'))
 
 a.reverse()
 print(a)
+
+#tuple -> immutable
+
+t = (1,2,3)
+
+#t[0]= 100
+
+print(t)
+t_r = tuple(reversed(t))
+print(t_r)
