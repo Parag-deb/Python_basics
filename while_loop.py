@@ -10,4 +10,4 @@ while i<n:
     print(result)
 
 
-print(result)
+print(f"total : {result} ")
