@@ -27,3 +27,6 @@ a = [1,2,3]
 b = ["Mango" , "Banana" , "Apple"]
 
 print(dict(zip(a,b)))
+
+c = dict(zip(a,b))
+print(c[1]) # here 1 is the key,& we are accessing with the key
