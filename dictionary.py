@@ -13,3 +13,17 @@ print("----")
 
 for i in a.values():
     print(i)
+
+
+print(a.keys(), a.values())
+
+for k,v in a.items():
+    print(f"Key name : {k} , Values : {v}")
+
+
+print("-----")
+
+a = [1,2,3]
+b = ["Mango" , "Banana" , "Apple"]
+
+print(dict(zip(a,b)))
