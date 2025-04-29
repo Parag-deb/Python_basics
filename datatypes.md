@@ -5,3 +5,9 @@
 -> List
 -> Tuple
 -> Dictionary
+-> Set
+-> File
+-> Boolean
+-> None
+-> Functions, ,odules, classes
+-> Advance - Decoratora, Generators, Iterators,  MetaProgramming
