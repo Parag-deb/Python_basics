@@ -11,3 +11,5 @@
 -> None
 -> Functions, ,odules, classes
 -> Advance - Decoratora, Generators, Iterators,  MetaProgramming
+
+-> no immediate garbage collection for numbers and strings.
