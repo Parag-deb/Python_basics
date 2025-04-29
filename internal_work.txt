@@ -32,3 +32,25 @@ element , it only changed the value for the myListOne...
 
 //in this case the references are same , thats why when we changed the 0th element,
 it changed for both p1 and p2
+
+
+//slicing
+>>> h1 =[1,2,3]
+>>> h2 = h1[:]
+>>> h1
+[1, 2, 3]
+>>> h2
+[1, 2, 3]
+
+>>> h2 = h1[0:2]
+>>> h2
+[1, 2]
+>>> h2
+[1, 2, 3]
+>>> h1 is h2
+False
+>>> h1 == h2
+True
+
+// in this case, the [:] symbol creates a copy of first reference.
+   h2 = h1[:] -> h2 has a reference of same copy value of h1.
