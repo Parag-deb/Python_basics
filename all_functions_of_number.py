@@ -43,3 +43,10 @@ print(f"2. math.floor(3.9): {math.floor(3.9)}")  # 3
 print(f"3. math.sqrt(16): {math.sqrt(16)}")  # 4.0
 print(f"4. math.factorial(5): {math.factorial(5)}")  # 120
 print(f"5. math.fabs(-5): {math.fabs(-5)}")  # 5.0
+
+
+print(f"1. math.log(100, 10): {math.log(100, 10)}")  # 2.0
+print(f"2. math.exp(2): {math.exp(2)}")  # ~7.389
+print(f"3. math.sin(math.pi/2): {math.sin(math.pi/2)}")  # 1.0
+print(f"4. math.cos(0): {math.cos(0)}")  # 1.0
+print(f"5. math.tan(math.pi/4): {math.tan(math.pi/4)}")  # ~1.0
