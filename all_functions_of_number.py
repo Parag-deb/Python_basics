@@ -1,5 +1,6 @@
 # number_basics.py
 import math
+import random
 # Integers
 x = 10
 print(f"1. Integer: {x}")  # 10
@@ -50,3 +51,12 @@ print(f"2. math.exp(2): {math.exp(2)}")  # ~7.389
 print(f"3. math.sin(math.pi/2): {math.sin(math.pi/2)}")  # 1.0
 print(f"4. math.cos(0): {math.cos(0)}")  # 1.0
 print(f"5. math.tan(math.pi/4): {math.tan(math.pi/4)}")  # ~1.0
+
+
+print(f"1. random.randint(1, 10): {random.randint(1, 10)}")  # Random int between 1 and 10
+print(f"2. random.random(): {random.random()}")  # Float between 0 and 1
+print(f"3. random.uniform(1.5, 4.5): {random.uniform(1.5, 4.5)}")  # Float between 1.5 and 4.5
+
+# Number testing
+print(f"4. isinstance(10, int): {isinstance(10, int)}")  # True
+print(f"5. isinstance(3.5, float): {isinstance(3.5, float)}")  # True
