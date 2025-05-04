@@ -1,7 +1,7 @@
 #{}
 # key value pair
 # indexing er sujug nai
-# key gula obossoi immutable
+
 
 a = {'rahim' : 12 , 'karim' : 14 , 'fahim' : 78 , 1:[1,2,3,4] , 2:{3,4,5}}
 
@@ -57,3 +57,12 @@ print(tea_shop["chai"]["Masala"])
 squared_number = {x : x**2 for x in range(101)}
 for key, value in squared_number.items():
     print(f"{key}: {value}")
+
+
+keys = ["Masala", "Ginger", "Lemon"]
+print(keys)
+default_value = "Delicious"
+new_dict = dict.fromkeys(keys , default_value)
+print(new_dict)
+new_dict = dict.fromkeys(keys , keys)
+print(new_dict)
