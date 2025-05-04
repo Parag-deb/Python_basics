@@ -53,3 +53,7 @@ print(tea_shop)
 print(tea_shop["chai"])
 # to access the elements
 print(tea_shop["chai"]["Masala"])
+
+squared_number = {x : x**2 for x in range(101)}
+for key, value in squared_number.items():
+    print(f"{key}: {value}")
