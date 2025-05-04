@@ -42,3 +42,14 @@ chai_types.pop("Ginger")
 print(chai_types)
 print(f"poped item: {chai_types.popitem()}")
 print(chai_types)
+#----dictionary under dictionary
+tea_shop ={
+    "chai":{'Masala': 'Spicy', 'Ginger': 'Zesty'},
+    "Tea" : {"Green": "Mild", "BLack": "Strong"}
+}
+print(tea_shop)
+
+# to access dictionary
+print(tea_shop["chai"])
+# to access the elements
+print(tea_shop["chai"]["Masala"])
