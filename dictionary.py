@@ -30,3 +30,15 @@ print(dict(zip(a,b)))
 
 c = dict(zip(a,b))
 print(c[1]) # here 1 is the key,& we are accessing with the key
+
+
+
+chai_types = {'Masala': 'Spicy', 'Ginger': 'Zesty', 'Green': 'Fresh'}
+print(chai_types)
+chai_types["Earl Grey"] = "Citrus"
+print(chai_types)
+
+chai_types.pop("Ginger")
+print(chai_types)
+print(f"poped item: {chai_types.popitem()}")
+print(chai_types)
