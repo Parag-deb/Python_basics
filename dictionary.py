@@ -1,7 +1,7 @@
 #{}
 # key value pair
 # indexing er sujug nai
-
+#mutable
 
 a = {'rahim' : 12 , 'karim' : 14 , 'fahim' : 78 , 1:[1,2,3,4] , 2:{3,4,5}}
 
