@@ -1,7 +1,7 @@
-# 1.create a car c;ass with attributes like brand and model, 
-#   then create an instance of this class
+# 1. Create a car class with attributes like brand and model, 
+#    then create an instance of this class
 
-# 2.add method to the car class that displays the full name of the car( brand and model)
+# 2. Add method to the car class that displays the full name of the car( brand and model)
 # 3. Create an ElectricCar class that inherits from the car class and has an additional attributes battery_size
 # 4. Encapsulation - Modify the car class to encapsulate the brand attribute, making it private and provide a getter method of it 
 
@@ -28,7 +28,7 @@ my_new_car = Car("Tata", "Safari")
 print(my_new_car.brand , my_new_car.model)
 print(my_new_car.full_name())
 
-# Quertion 3
+# Ques tion 3
 print()
 print("-----inheritance - Question 3-----")
 
