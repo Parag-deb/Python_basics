@@ -1,3 +1,4 @@
+# Here i've used colorama library to print colored text in terminal
 import sqlite3
 from colorama import init, Fore, Style
 
@@ -125,3 +126,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
